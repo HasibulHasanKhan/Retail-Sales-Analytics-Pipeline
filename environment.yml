@@ -1,0 +1,21 @@
+name: retail_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - sqlalchemy
+  - pyyaml
+  - openpyxl
+  - plotly
+  - requests
+  - apache-airflow
+  - pip
+  - pip:
+      - python-dotenv
+      - pytest
